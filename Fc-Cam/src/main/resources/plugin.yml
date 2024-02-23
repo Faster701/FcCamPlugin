@@ -1,0 +1,8 @@
+name: Fc-Cam
+version: 1.0
+main: com.fastercraft.fc_cam.FcCamPlugin
+author: Fastercraft
+description: Мой удивительный плагин для сохранения позиций и телепортации в Minecraft.
+commands:
+  fccam:
+    description: Основная команда Fc-Cam
