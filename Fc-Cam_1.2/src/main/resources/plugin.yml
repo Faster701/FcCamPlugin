@@ -1,0 +1,17 @@
+name: Fc-Cam
+version: '${project.version}'
+main: org.fastercraft.fccam.FcCamPlugin
+api-version: '1.20'
+author: Fastercraft
+description: Плагин для сохранения позиций и телепортации в Minecraft.
+commands:
+  fccam:
+    description: Основная команда Fc-Cam
+    usage: /fccam [save/teleport/delete/list/startcycle/stopcycle/help]
+permissions:
+  fccam.save: true
+  fccam.teleport: true
+  fccam.delete: true
+  fccam.list: true
+  fccam.startcycle: true
+  fccam.stopcycle: true
